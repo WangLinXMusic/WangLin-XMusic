@@ -37,6 +37,27 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/WangLinXMusic/WangLin-XMusic",
 )
+
+EXTRA_PLUGINS = getenv(
+    "EXTRA_PLUGINS",
+    "True",
+)
+
+# Fill True if you want to load extra plugins
+
+
+EXTRA_PLUGINS_REPO = getenv(
+    "EXTRA_PLUGINS_REPO",
+    "https://github.com/WangLinXMusic/WangLin-Extra-Plugin",
+)
+
+# Fill here the external plugins repo where plugins that you want to load
+
+
+EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
+
+
+
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
